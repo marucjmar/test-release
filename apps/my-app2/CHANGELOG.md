@@ -1,3 +1,13 @@
+## 0.2.3 (2025-02-19)
+
+### 🩹 Fixes
+
+- fix console message ([377cb1e](https://github.com/marucjmar/test-release/commit/377cb1e))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.2.2 (2025-02-19)
 
 ### 🩹 Fixes
