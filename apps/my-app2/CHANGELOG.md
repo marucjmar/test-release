@@ -1,3 +1,13 @@
+## 0.2.2 (2025-02-19)
+
+### 🩹 Fixes
+
+- 11 ([101bf44](https://github.com/marucjmar/test-release/commit/101bf44))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.2.1 (2025-02-19)
 
 ### 🩹 Fixes
