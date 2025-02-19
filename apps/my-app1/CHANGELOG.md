@@ -1,3 +1,18 @@
+## 0.4.0 (2025-02-19)
+
+### 🚀 Features
+
+- dadw ([e7b4eb1](https://github.com/marucjmar/test-release/commit/e7b4eb1))
+- wd ([d1a40e5](https://github.com/marucjmar/test-release/commit/d1a40e5))
+
+### 🩹 Fixes
+
+- eded ([8603642](https://github.com/marucjmar/test-release/commit/8603642))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.3.0 (2025-02-19)
 
 ### 🚀 Features
