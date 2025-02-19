@@ -39,6 +39,5 @@ jobs:
       - run: |
           MESSAGE="${{ contains(github.event.pull_request.base.ref, 'bugfix') && 'fix' || 'feat' }}: ${{ github.event.pull_request.title }}"
           gh pr edit ${{ github.event.pull_request.number }} --add-label ${{ contains(github.event.pull_request.base.ref, 'bugfix') && 'bug' || 'enhancement' }}
-          gh pr merge ${{ github.event.pull_request.number }} --squash --auto --subject "${MESSAGE}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
