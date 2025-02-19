@@ -1,3 +1,13 @@
+## 0.4.1 (2025-02-19)
+
+### 🩹 Fixes
+
+- sdad ([e50c5fa](https://github.com/marucjmar/test-release/commit/e50c5fa))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.4.0 (2025-02-19)
 
 ### 🚀 Features
