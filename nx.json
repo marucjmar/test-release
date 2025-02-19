@@ -72,8 +72,13 @@
   "release": {
     "projects": ["my-app1", "my-app2"],
     "projectsRelationship": "independent",
+    "version": {
+      "conventionalCommits": true
+    },
     "changelog": {
-      "projectChangelogs": true
+      "projectChangelogs": {
+        "createRelease": "github"
+      }
     }
   }
 }
