@@ -1,3 +1,14 @@
+## 0.3.0 (2025-02-19)
+
+### 🚀 Features
+
+- add console log message ([82b2fb1](https://github.com/marucjmar/test-release/commit/82b2fb1))
+- Feature/wdwdwd ([3dd14cc](https://github.com/marucjmar/test-release/commit/3dd14cc))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.2.4 (2025-02-19)
 
 ### 🩹 Fixes
