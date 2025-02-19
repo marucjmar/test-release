@@ -1,10 +1,7 @@
-name: CI
+name: CI2
 
 on:
   pull_request:
-    types: [opened, edited]
-
-permissions: write-all
 
 jobs:
   main:
@@ -20,12 +17,6 @@ jobs:
       # Uncomment this line to enable task distribution
       # - run: npx nx-cloud start-ci-run --distribute-on="3 linux-medium-js" --stop-agents-after="e2e-ci"
 
-      # Cache node_modules
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'npm'
-
       # - run: npm ci --legacy-peer-deps
       # - run: npx playwright install --with-deps
       # - uses: nrwl/nx-set-shas@v4
@@ -36,8 +27,5 @@ jobs:
       # # When you enable task distribution, run the e2e-ci task instead of e2e
       # - run: npx nx affected -t lint test build e2e
       - run: |
-          MESSAGE="${{ contains(github.event.pull_request.base.ref, 'bugfix') && 'fix' || 'feat' }}: ${{ github.event.pull_request.title }}"
-          gh pr merge ${{ github.event.pull_request.number }} --squash --auto --subject "${MESSAGE}"
-          gh pr edit ${{ github.event.pull_request.number }} --add-label ${{ contains(github.event.pull_request.base.ref, 'bugfix') && 'bug' || 'enhancement' }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          sleep 50
+
