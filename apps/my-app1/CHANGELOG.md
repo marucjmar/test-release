@@ -1,3 +1,13 @@
+## 0.5.2 (2025-02-21)
+
+### 🩹 Fixes
+
+- fix prod ([44472eb](https://github.com/marucjmar/test-release/commit/44472eb))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.5.1 (2025-02-21)
 
 ### 🩹 Fixes
