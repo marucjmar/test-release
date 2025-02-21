@@ -1,3 +1,13 @@
+## 0.4.2 (2025-02-21)
+
+### 🩹 Fixes
+
+- fix message ([3bee503](https://github.com/marucjmar/test-release/commit/3bee503))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.4.1 (2025-02-19)
 
 ### 🩹 Fixes
