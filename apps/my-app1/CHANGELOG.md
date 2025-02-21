@@ -1,3 +1,13 @@
+## 0.4.4 (2025-02-21)
+
+### 🩹 Fixes
+
+- fix message ([10b57dc](https://github.com/marucjmar/test-release/commit/10b57dc))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.4.3 (2025-02-21)
 
 ### 🩹 Fixes
