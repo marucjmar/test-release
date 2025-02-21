@@ -6,7 +6,7 @@ run-name: "Publish Release: ${{ github.event.release.tag_name }}"
 on:
   release:
     types:
-      - created
+      - published
 
 jobs:
   publish:
