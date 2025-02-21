@@ -1,3 +1,13 @@
+## 0.4.3 (2025-02-21)
+
+### 🩹 Fixes
+
+- fix message ([036d27f](https://github.com/marucjmar/test-release/commit/036d27f))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.4.2 (2025-02-21)
 
 ### 🩹 Fixes
