@@ -1,11 +1,12 @@
 # Name of the workflow
 name: Publish Release
-run-name: "Publish Release: ${{ github.event.release.tag_name }}"
+run-name: "Publish Release: ${{ github.event.release.tag_name || github.event.ref }}"
 
 # Rules that triggers the workflows
 on:
   release:
     types: [published]
+  workflow_dispatch:
 
 jobs:
   publish:
