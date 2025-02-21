@@ -6,4 +6,4 @@ bootstrapApplication(AppComponent, appConfig).catch((err) =>
   console.error(err)
 );
 
-console.log('wawssaxxx2xx2xxxxxxxx')
+console.log('wxawssaxxx2xx2xxxxxxxxx')
