@@ -1,13 +1,11 @@
 # Name of the workflow
 name: Publish Release
-run-name: "Publish Release: ${{ github.event.workflow_run.event.release.tag_name }}"
+run-name: "Publish Release: ${{ github.event.release.tag_name }}"
 
 # Rules that triggers the workflows
 on:
-  workflow_run:
-    workflows: [Release]
-    types:
-      - completed
+  release:
+    types: [published]
 
 jobs:
   publish:
@@ -22,7 +20,7 @@ jobs:
       # customization (like additional release of the package, or some external notifications)
       - name: Get Version
         run: |
-          TAG_NAME=${{github.event.workflow_run.event.release.tag_name}}
+          TAG_NAME=${{github.event.release.tag_name}}
           echo "APP_NAME=$(echo $TAG_NAME | cut -d "@" -f 1)" >> $GITHUB_ENV
           echo "APP_VERSION=$(echo $TAG_NAME | cut -d "@" -f 2)" >> $GITHUB_ENV
 
