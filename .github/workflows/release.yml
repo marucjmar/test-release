@@ -30,4 +30,4 @@ jobs:
       - run: npm ci --legacy-peer-deps
       - run: npx nx release --projects=${{ inputs.app }} --skip-publish
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
