@@ -9,9 +9,34 @@ on:
   workflow_dispatch:
 
 jobs:
-  publish:
+  publish-staing:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    environment: Staging
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Additional steps to get a version and package name from a tag
+      # it will not be used in this example, but might be useful for some
+      # customization (like additional release of the package, or some external notifications)
+      - name: Get Version
+        run: |
+          TAG_NAME=${{github.event.release.tag_name}}
+          echo "APP_NAME=$(echo $TAG_NAME | cut -d "@" -f 1)" >> $GITHUB_ENV
+          echo "APP_VERSION=$(echo $TAG_NAME | cut -d "@" -f 2)" >> $GITHUB_ENV
+
+        # We are triggering nx release publish in --dry-run mode in order to not actually publish
+        # any package to npm registry, but only see what steps will be taken - this is set for tests only.
+        # You can remove this flag once you will be ready to publish to npm registry.
+      - name: Publish packages
+        run: |
+          echo "publish $APP_NAME"
+
+  publish-prod:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: Prod
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
