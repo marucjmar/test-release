@@ -37,7 +37,7 @@ jobs:
       # - run: npx nx affected -t lint test build e2e
       - run: |
           MESSAGE="${{ contains(github.event.pull_request.base.ref, 'bugfix') && 'fix' || 'feat' }}: ${{ github.event.pull_request.title }}"
-          gh pr merge ${{ github.event.pull_request.number }} --squash --auto --subject "${MESSAGE}"
+          gh pr merge ${{ github.event.pull_request.number }} --disable-auto
           gh pr merge ${{ github.event.pull_request.number }} --squash --auto --subject "${MESSAGE} wwxx"
           gh pr edit ${{ github.event.pull_request.number }} --add-label ${{ contains(github.event.pull_request.base.ref, 'bugfix') && 'bug' || 'enhancement' }}
         env:
