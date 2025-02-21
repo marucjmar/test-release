@@ -1,3 +1,13 @@
+## 0.4.6 (2025-02-21)
+
+### 🩹 Fixes
+
+- fix message ([fa5ba8b](https://github.com/marucjmar/test-release/commit/fa5ba8b))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.4.5 (2025-02-21)
 
 ### 🩹 Fixes
