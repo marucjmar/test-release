@@ -1,3 +1,13 @@
+## 0.5.3 (2025-02-21)
+
+### 🩹 Fixes
+
+- fix message ([2320c85](https://github.com/marucjmar/test-release/commit/2320c85))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.5.2 (2025-02-21)
 
 ### 🩹 Fixes
