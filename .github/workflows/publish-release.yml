@@ -5,6 +5,7 @@ run-name: "Publish Release: ${{ github.event.release.tag_name }}"
 # Rules that triggers the workflows
 on:
   release:
+    types: [published]
 
 jobs:
   publish:
