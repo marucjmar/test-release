@@ -1,3 +1,13 @@
+## 0.4.7 (2025-02-21)
+
+### 🩹 Fixes
+
+- fix mes ([2ed99c1](https://github.com/marucjmar/test-release/commit/2ed99c1))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.4.6 (2025-02-21)
 
 ### 🩹 Fixes
