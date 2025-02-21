@@ -1,3 +1,13 @@
+## 0.5.0 (2025-02-21)
+
+### 🚀 Features
+
+- fix ([24ffa4a](https://github.com/marucjmar/test-release/commit/24ffa4a))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.4.8 (2025-02-21)
 
 ### 🩹 Fixes
