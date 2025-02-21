@@ -1,3 +1,13 @@
+## 0.4.5 (2025-02-21)
+
+### 🩹 Fixes
+
+- fix message ([e1df9fc](https://github.com/marucjmar/test-release/commit/e1df9fc))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.4.4 (2025-02-21)
 
 ### 🩹 Fixes
