@@ -1,3 +1,13 @@
+## 0.5.1 (2025-02-21)
+
+### 🩹 Fixes
+
+- fix message ([db28621](https://github.com/marucjmar/test-release/commit/db28621))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.5.0 (2025-02-21)
 
 ### 🚀 Features
