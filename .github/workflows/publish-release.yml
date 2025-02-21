@@ -36,6 +36,7 @@ jobs:
   publish-prod:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    needs: publish-staing
     environment: Prod
     steps:
       - name: Checkout repository
