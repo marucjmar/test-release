@@ -1,3 +1,13 @@
+## 0.4.8 (2025-02-21)
+
+### 🩹 Fixes
+
+- release ([c0ee48c](https://github.com/marucjmar/test-release/commit/c0ee48c))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.4.7 (2025-02-21)
 
 ### 🩹 Fixes
