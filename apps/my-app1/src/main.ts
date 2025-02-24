@@ -7,3 +7,4 @@ bootstrapApplication(AppComponent, appConfig).catch((err) =>
 );
 
 console.log('Console Log!')
+console.log('Console Log!2')
