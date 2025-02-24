@@ -1,4 +1,3 @@
-## Describe your changes
+## Checklista PR
+- [ ] Pull request ma ustawioną poprawną nazwę opisującą zmianę
 
-## Checklist before requesting a review
-- [ ] Ustawiłem poprawną nazwę pull requesta
