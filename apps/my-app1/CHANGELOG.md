@@ -1,3 +1,21 @@
+## 0.6.0 (2025-02-24)
+
+### 🚀 Features
+
+- EFN-300 - Log konsoli ze startem aplikacji wwxx ([622f5db](https://github.com/marucjmar/test-release/commit/622f5db))
+- adwddw wwxx ([2b4caeb](https://github.com/marucjmar/test-release/commit/2b4caeb))
+- disable d auto wwxx ([e8f2a47](https://github.com/marucjmar/test-release/commit/e8f2a47))
+- Feature/test console ([db80bdd](https://github.com/marucjmar/test-release/commit/db80bdd))
+- test console ([ad36011](https://github.com/marucjmar/test-release/commit/ad36011))
+- test condole ([49d25f1](https://github.com/marucjmar/test-release/commit/49d25f1))
+- feat: dd ([497aae0](https://github.com/marucjmar/test-release/commit/497aae0))
+- Feature/test ([097ed45](https://github.com/marucjmar/test-release/commit/097ed45))
+- test w ([835445f](https://github.com/marucjmar/test-release/commit/835445f))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.5.3 (2025-02-21)
 
 ### 🩹 Fixes
