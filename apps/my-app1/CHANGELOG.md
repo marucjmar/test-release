@@ -1,3 +1,13 @@
+## 0.8.0 (2025-02-24)
+
+### 🚀 Features
+
+- Nowy log wwxx ([b5e8042](https://github.com/marucjmar/test-release/commit/b5e8042))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.7.0 (2025-02-24)
 
 ### 🚀 Features
