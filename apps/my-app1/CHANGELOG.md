@@ -1,3 +1,14 @@
+## 0.7.0 (2025-02-24)
+
+### 🚀 Features
+
+- Feature/console log wwxx ([7420b80](https://github.com/marucjmar/test-release/commit/7420b80))
+- App started wwxx ([a488a29](https://github.com/marucjmar/test-release/commit/a488a29))
+
+### ❤️ Thank You
+
+- Marcin
+
 ## 0.6.0 (2025-02-24)
 
 ### 🚀 Features
