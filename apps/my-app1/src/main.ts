@@ -6,4 +6,4 @@ bootstrapApplication(AppComponent, appConfig).catch((err) =>
   console.error(err)
 );
 
-console.log('App started');
+console.log('App startedd');
